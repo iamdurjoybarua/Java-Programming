@@ -36,6 +36,31 @@ This repository includes the following Java programs:
     * A `main` method demonstrates how to create a `Student` object, enroll in courses, unenroll from a course, and display the student's information.
     * *(See `Student.java` and its README for more details)*
 
+6.  **Library Management:**
+    * Defines a `Library` class with a collection of `Book` objects (assuming a `Book` class with title and author attributes).
+    * Includes methods to add a book to the library and remove a book by its title.
+    * *(See `Library.java` and its README for more details)*
+
+7.  **Airplane Flight Information:**
+    * Defines an `Airplane` class with attributes for flight number, destination, and departure time.
+    * Includes methods to check flight status and delay.
+    * *(See `Airplane.java` and its README for more details)*
+
+8.  **Inventory Management:**
+    * Defines an `Inventory` class with a collection of `Product` objects.
+    * Includes methods to add and remove products, and to check for low inventory.
+    * *(See `Inventory.java` and its README for more details)*
+
+9.  **School Management:**
+    * Defines a `School` class with attributes for students, teachers, and classes.
+    * Includes methods to add and remove students and teachers, and to create classes.
+    * *(See `School.java` and its README for more details)*
+
+10. **Music Library:**
+    * Defines a `MusicLibrary` class with a collection of songs.
+    * Includes methods to add and remove songs, and to play a random song.
+    * *(See `MusicLibrary.java` and its README for more details)*
+
 ## Getting Started
 
 For each program:
@@ -54,7 +79,7 @@ For each program:
     *(Replace `<MainClassName>` with the name of the class containing the `main` method (usually the same as the filename without the `.java` extension))*
 
     * For the Bank System, run `java BankSystem`.
-    * For the other single-class programs, run `java Employee`, `java TrafficLight`, `java EmployeeInfo`, or `java Student`.
+    * For the other single-class programs, run `java Employee`, `java TrafficLight`, `java EmployeeInfo`, `java Student`, `java Library`, `java Airplane`, `java Inventory`, `java School`, or `java MusicLibrary`.
 
 ## Usage
 
