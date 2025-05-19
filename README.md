@@ -1,6 +1,6 @@
 # Collection of Simple Java Programs
 
-This repository contains a series of basic Java programs demonstrating fundamental object-oriented programming concepts. Each program focuses on a specific real-world entity and its associated attributes and behaviors.
+This repository contains a series of basic Java programs demonstrating fundamental object-oriented programming concepts and common algorithmic tasks. Each program focuses on a specific real-world entity or a particular algorithm and its implementation in Java.
 
 ## Programs Included
 
@@ -61,6 +61,36 @@ This repository includes the following Java programs:
     * Includes methods to add and remove songs, and to play a random song.
     * *(See `MusicLibrary.java` and its README for more details)*
 
+11. **Boundary Elements of a Matrix:**
+    * Demonstrates how to extract and print the boundary elements (first and last rows, first and last columns) of a 2D integer array (matrix).
+    * The `main` method initializes a sample matrix and calls a method to display its boundary elements.
+    * *(See `BoundaryElements.java` and its README for more details)*
+
+12. **Diagonal Sum of a Matrix:**
+    * Calculates and prints the sum of the elements on the main diagonal (top-left to bottom-right) and the secondary diagonal (top-right to bottom-left) of a square 2D integer array (matrix).
+    * The `main` method initializes a sample square matrix and calls methods to calculate and display both diagonal sums.
+    * *(See `DiagonalSum.java` and its README for more details)*
+
+13. **Reverse a String:**
+    * Provides a simple method to reverse a given string.
+    * The `main` method demonstrates how to use this method with an example string.
+    * *(See `ReverseString.java` and its README for more details)*
+
+14. **Rotate a Matrix:**
+    * Implements a method to rotate a square 2D integer array (matrix) by 90 degrees clockwise.
+    * The `main` method initializes a sample square matrix, performs the rotation, and prints the original and rotated matrices.
+    * *(See `RotateMatrix.java` and its README for more details)*
+
+15. **Spiral Matrix Traversal:**
+    * Demonstrates how to traverse and print the elements of a 2D integer array (matrix) in a spiral order (clockwise).
+    * The `main` method initializes a sample matrix and calls a method to perform and display the spiral traversal.
+    * *(See `SpiralMatrix.java` and its README for more details)*
+
+16. **Zigzag (or Diagonal) Traversal of a Matrix:**
+    * Implements a method to traverse and print the elements of a 2D integer array (matrix) in a zigzag (diagonal) order.
+    * The `main` method initializes a sample matrix and calls a method to perform and display the zigzag traversal.
+    * *(See `ZigzagTraversal.java` and its README for more details)*
+
 ## Getting Started
 
 For each program:
@@ -79,7 +109,7 @@ For each program:
     *(Replace `<MainClassName>` with the name of the class containing the `main` method (usually the same as the filename without the `.java` extension))*
 
     * For the Bank System, run `java BankSystem`.
-    * For the other single-class programs, run `java Employee`, `java TrafficLight`, `java EmployeeInfo`, `java Student`, `java Library`, `java Airplane`, `java Inventory`, `java School`, or `java MusicLibrary`.
+    * For the other single-class programs, run `java Employee`, `java TrafficLight`, `java EmployeeInfo`, `java Student`, `java Library`, `java Airplane`, `java Inventory`, `java School`, `java MusicLibrary`, `java BoundaryElements`, `java DiagonalSum`, `java ReverseString`, `java RotateMatrix`, `java SpiralMatrix`, or `java ZigzagTraversal`.
 
 ## Usage
 
